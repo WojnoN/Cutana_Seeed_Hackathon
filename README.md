@@ -11,7 +11,9 @@ The goal of Cutana is to have a robot who is able to pick up vegetables, place t
 
 
 # Software
-This project initially tried to use Gr00t, but issues came up and all policies were instead trained using ACT.
+All policies were instead trained using ACT.
+
+Instead of trying to record everything in one take, we have decided to split our tasks into smaller policies and train them with smaller recordings.
 
 Each policy implemented was trained after taking 100 episodes, the tasks that were trained being the following:
 - Chopping
